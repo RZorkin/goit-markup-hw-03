@@ -8,6 +8,17 @@ body {
 
 /* HEADER */
 
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 0 15px;
+	outline: 1px solid red;
+}
+
+.page-header {
+	background-color: yellow;
+}
+
 /* навігація */
 .logo-blue,
 .logo-black {
@@ -25,6 +36,8 @@ body {
 .link,
 .list {
 	list-style-type: none;
+	padding: 0;
+	margin: 0;
 }
 
 .link-s,
@@ -61,31 +74,39 @@ body {
 
 /* MAIN */
 
-/* банер */
+/* банер (banner) */
 
 .banner {
 	background-color: #2f303a;
+	text-align: center;
 }
 
 .title-h1 {
+	margin-top: 0;
+	margin-bottom: 40px;
+	outline: 1px solid green;
+
 	font-size: 44px;
 	line-height: 1.36;
-	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: #ffffff;
 }
 
 .button {
+	padding: 10px 32px;
+	min-width: 216px;
+	border: 1px solid transparent;
+
 	font-size: 16px;
 	line-height: 1.875;
-	display: flex;
+	display: inline-block;
 	align-items: center;
-	text-align: center;
 	letter-spacing: 0.06em;
 	color: #ffffff;
 	background: #2196f3;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
 	border-radius: 4px;
 	cursor: pointer;
 }
@@ -99,7 +120,7 @@ body {
 }
 
 /* MAIN */
-/* особливості */
+/* особливості (train) */
 
 /* прихований заголовок */
 .visually-hidden {
@@ -126,16 +147,43 @@ body {
 	color: #757575;
 }
 
-/* чим ми займаємось */
+.title-h3,
+.text {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.train {
+	margin-top: 94px;
+}
+
+/* чим ми займаємось (our-job) */
 
 .title-h2 {
+	margin-top: 0;
+	margin-bottom: 50px;
 	font-size: 36px;
 	line-height: 1.166;
 	text-align: center;
 	color: #212121;
 }
 
-/* наша команда */
+.our-job {
+	margin-top: 94px;
+}
+
+/* наша команда (our-team) */
+
+.title-h2-team {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 94px;
+	padding-bottom: 50px;
+	font-size: 36px;
+	line-height: 1.166;
+	text-align: center;
+	color: #212121;
+}
 
 .title-h3ws {
 	font-size: 16px;
@@ -151,25 +199,62 @@ body {
 	color: #757575;
 }
 
+.our-team {
+	background-color: #f5f4fa;
+	margin-top: 94px;
+}
+
+.team {
+	margin-top: 94px;
+	padding-bottom: 94px;
+}
+
+.title-h3ws,
+.text-1 {
+	margin: 0 auto;
+}
+
 /* FOOTER */
 
+.address {
+	display: block;
+	padding-bottom: 60px;
+	width: 231px;
+}
+
+.logo {
+	display: inline-block;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
 .logo-white {
 	color: #ffffff;
 }
 
-.footer {
+.page-footer {
 	background-color: #2f303a;
 }
 
 .home {
 	line-height: 1.71;
 	color: #ffffff;
+	text-decoration: none;
+	font-style: normal;
+	display: block;
+	padding-bottom: 9px;
 }
 
 .mail,
 .tel {
 	line-height: 1.71;
 	color: rgba(255, 255, 255, 0.6);
+	text-decoration: none;
+	font-style: normal;
+	display: block;
+}
+
+.mail {
+	padding-bottom: 9px;
 }
 
 .home:hover,
@@ -185,6 +270,11 @@ body {
 }
 
 /* PORTFOLIO */
+
+.our-projects {
+	margin-top: 94px;
+	margin-bottom: 94px;
+}
 
 /* кнопки фільтрів */
 .button-port {
@@ -213,6 +303,8 @@ body {
 
 /* приклади робіт */
 .title-h3p {
+	margin-top: 0;
+	margin-bottom: 0;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
@@ -224,4 +316,5 @@ body {
 	line-height: 1.875;
 	letter-spacing: 0.03em;
 	color: #757575;
+	text-decoration: none;
 }
