@@ -1,6 +1,6 @@
 :root {
 	--hover-focus-logo-color: #2196f3;
-	--background-color: #2f303a;
+	--header-footer-color: #2f303a;
 }
 
 body {
@@ -123,7 +123,7 @@ img {
 /* БАНЕР (BANNER) */
 
 .banner {
-	background-color: var(--background-color);
+	background-color: var(--header-footer-color);
 	text-align: center;
 	padding-top: 200px;
 	padding-bottom: 200px;
@@ -360,7 +360,7 @@ img {
 }
 
 .page-footer {
-	background-color: var(--background-color);
+	background-color: var(--header-footer-color);
 }
 
 .address-list {
