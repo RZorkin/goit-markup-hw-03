@@ -71,6 +71,14 @@ img {
 	color: #212121;
 }
 
+.link-s {
+	color: var(--hover-focus-logo-color);
+}
+
+.link-p {
+	color: var(--hover-focus-logo-color);
+}
+
 .menu-nav,
 .contact-nav {
 	display: flex;
@@ -155,6 +163,7 @@ img {
 	color: #ffffff;
 	background: var(--hover-focus-logo-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border: transparent;
 	border-radius: 4px;
 	cursor: pointer;
 }
@@ -447,6 +456,7 @@ img {
 	color: #212121;
 	background: #f5f4fa;
 	border-radius: 4px;
+	border: transparent;
 	cursor: pointer;
 }
 
@@ -474,10 +484,24 @@ img {
 }
 
 .web-list > .item {
-	border: 1px solid #eeeeee;
+	/* border: 1px solid #eeeeee; */
 	flex-basis: calc(100% / 3 - 30px);
 	margin-left: 30px;
 	margin-top: 30px;
+}
+
+.border {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #eeeeee;
+
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #eeeeee;
+
+	border-left-width: 1px;
+	border-left-style: solid;
+	border-left-color: #eeeeee;
 }
 
 .title-h3p {
