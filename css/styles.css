@@ -71,11 +71,11 @@ img {
 	color: #212121;
 }
 
-.link-s {
+.studio {
 	color: var(--hover-focus-logo-color);
 }
 
-.link-p {
+.portfolio {
 	color: var(--hover-focus-logo-color);
 }
 
