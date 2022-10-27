@@ -491,21 +491,16 @@ img {
 }
 
 .border {
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #eeeeee;
-
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #eeeeee;
-
-	border-left-width: 1px;
-	border-left-style: solid;
-	border-left-color: #eeeeee;
+	display: block;
+	padding: 20px 24px;
+	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+	border-left: 1px solid #eeeeee;
 }
 
 .title-h3p {
-	margin: 20px 24px 4px 24px;
+	display: block;
+	margin: 0 0 4px 0;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
@@ -514,7 +509,6 @@ img {
 
 .work-examples {
 	display: block;
-	margin: 0 24px 20px 24px;
 	font-size: 16px;
 	line-height: 1.875;
 	letter-spacing: 0.03em;
