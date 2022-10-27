@@ -95,12 +95,12 @@ img {
 
 .link:hover,
 .contact:hover {
-	color: var(--hover-focus-color);
+	color: var(--hover-focus-logo-color);
 }
 
 .link:focus,
 .contact:focus {
-	color: var(--hover-focus-color);
+	color: var(--hover-focus-logo-color);
 }
 
 .contact {
